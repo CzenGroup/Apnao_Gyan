@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Safesite</title>
+    <title>About Safesite</title>
     <style>
         /* Your styles here */
 
@@ -54,15 +54,23 @@
         section {
             padding: 20px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #ffffff; /* White border */
+            border-radius: 10px;
+            background: linear-gradient(to right, #272727, #1a1a1a); /* Gradient background */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* White shadow */
+            margin-bottom: 20px;
+            overflow: hidden;
         }
 
         footer {
             background-color: #2980b9; /* Dark blue footer background */
             color: #ffffff; /* White footer text */
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
+            padding: 20px;
             width: 100%;
         }
 
@@ -70,9 +78,44 @@
             color: #ffffff; /* White header text */
         }
 
+        h3 {
+            color: #ffffff; /* White header text */
+        }
+
         p {
             line-height: 1.6;
             font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #2ecc71; /* Green button */
+            color: #ffffff; /* White text */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #27ae60; /* Darker green on hover */
         }
     </style>
 </head>
@@ -88,18 +131,22 @@
         </ul>
     </nav>
     <section>
-        <h2>Who We Are</h2>
-        <p>Safesite is a platform dedicated to providing information and tools to enhance your safety while navigating the digital landscape. Our mission is to empower users with the knowledge and resources needed to protect themselves online.</p>
-
-        <h2>Our Commitment</h2>
-        <p>At Safesite, we are committed to:</p>
-        <ul>
-            <li>Providing reliable information on online safety.</li>
-            <li>Offering practical tips and best practices for internet security.</li>
-            <li>Developing tools to assist users in securing their online presence.</li>
-        </ul>
+        <h2>Our Mission</h2>
+        <p>Safesite is dedicated to providing essential information and resources to help individuals, businesses, and organizations stay safe in the digital world. We are committed to raising awareness about cyber threats and promoting best practices for online security.</p>
     </section>
+
+    <section>
+        <h2>Why Safesite?</h2>
+        <p>With the increasing frequency of cyber attacks, it's crucial to be well-informed about potential risks and take proactive measures to protect yourself. Safesite offers valuable insights, tips, and tools to empower you in navigating the digital landscape securely.</p>
+    </section>
+
+    <section>
+        <h2>Our Team</h2>
+        <p>Our team consists of cybersecurity experts, researchers, and enthusiasts who are passionate about creating a safer online environment. We work tirelessly to provide up-to-date information and practical advice to help you safeguard your digital presence.</p>
+    </section>
+
     <footer>
+        <button onclick="window.location.href='qna.html'">Q&A</button>
         <p>&copy; 2024 Safesite. All rights reserved. | Contact us: info@safesite.com</p>
     </footer>
 </body>
