@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+    <!-- Image 1 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/cyber.jpg</image:loc>
+            <image:caption>Cyber Security Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+    <!-- Image 2 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/inter.png</image:loc>
+            <image:caption>Cyber Security Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+    <!-- Image 3 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/rt2.avif</image:loc>
+            <image:caption>Cyber Security Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+    <!-- Image 4 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/rt1.png</image:loc>
+            <image:caption>Internet Safety Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+    <!-- Image 5 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/rt123.webp</image:loc>
+            <image:caption>Internet Safety Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+    <!-- Image 6 -->
+    <url>
+        <loc>https://czengroup.github.io/Safesite/index.html</loc>
+        <image:image>
+            <image:loc>https://czengroup.github.io/Safesite/sou.jpeg</image:loc>
+            <image:caption>Social Media Privacy Image</image:caption>
+            <!-- Add more image information as needed -->
+        </image:image>
+    </url>
+
+</urlset>
